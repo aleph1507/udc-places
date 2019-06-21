@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>Authenticate</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding color="secondary">
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+<!--  <div text-center>-->
+<!--    <ion-spinner color="primary" *ngIf="isLoading"></ion-spinner>-->
+<!--  </div>-->
+  <ion-button color="primary" (click)="onLogin()"> <!--*ngIf="!isLoading"-->
+    Login
+  </ion-button>
+</ion-content>
