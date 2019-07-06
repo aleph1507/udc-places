@@ -11,9 +11,9 @@
 @import '~@ionic/angular/css/flex-utils.css';
 
 ion-content {
-  --background: linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ),
-  url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyGoiquqfPjW1OfSpPmMuRmwCHF6mZgazOkVGxBc_tX4Vq_tM8A');
-  background-color: rgba(200,100,0,.5); // Tint color
+  --background: linear-gradient( rgba(255,255,255,.5), rgba(0,0,0,.2) );
+  //url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhyGoiquqfPjW1OfSpPmMuRmwCHF6mZgazOkVGxBc_tX4Vq_tM8A');
+  //background-color: rgba(200,100,0,.5); // Tint color
   background-blend-mode: multiply;
 }
 
@@ -33,6 +33,10 @@ ion-button {
 
 ion-segment-button {
   --background: var(--ion-color-light);
+}
+
+.ion-invalid.ion-touched ion-label {
+  color: var(--ion-color-danger);
 }
 
 //body {
